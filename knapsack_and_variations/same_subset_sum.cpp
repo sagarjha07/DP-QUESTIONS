@@ -28,7 +28,7 @@ int main() {
             cin>>a[i];
             sum+=a[i];
         }
-        //if the total sum of the arr elements is negative ,we can't break the sum in two partition
+        //if the total sum of the arr elements is odd ,we can't break the sum in two partition
         if(sum%2!=0){
             cout<<"NO"<<endl;
         }
